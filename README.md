@@ -1,10 +1,12 @@
 # SG-Android
 
-# 1주차과제
+# 1주차 과제
 
 ![image](https://github.com/user-attachments/assets/031fccaf-3a61-409d-98ba-824c0935b08e)
 
 ![image](https://github.com/user-attachments/assets/28316b64-4819-4532-b546-4f2a49537892)
 
 
+# 2주차 과제
 
+https://github.com/Park-M-S/SG-Android/blob/main/2%EC%A3%BC%EC%B0%A8%20%EA%B3%BC%EC%A0%9C.md
