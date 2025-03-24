@@ -1,0 +1,266 @@
+3주차 수업내용
+====================
+
+- 객체 지향 프로그래밍
+- 컬렉션
+- 함수형 프로그래밍
+- 기타 유용한 기법
+
+## 객체 지향 프로그래밍
+  -클래스
+  -접근 지정자
+  -생성자
+  -게터, 세터
+  -상속
+  -추상 클래스
+  -interface 클래스, sealed 클래스 (Flutter 3)
+
+## 이후 내용은 ppt를 참고해서 공부
+
+# 실습 내용
+
+class Rectangle {
+  num left, top, width, height;
+
+  Rectangle(this.left, this.top, this.width, this.height);
+
+  num get right => left + width;
+  set right(num value) => left = value - width;
+  num get bottom => top + height;
+  set bottom(num value) => top = value - height;
+}
+
+class Rectangle2 {
+  num left, top, right, bottom;
+
+  Rectangle2(this.left, this.top, this.right, this.bottom);
+
+  num get width => right - left;
+  set width(num value) => right = left + value;
+  num get height => bottom - top;
+  set wight(num value) => bottom = top + value;
+}
+
+void main() {
+  var r1 = Rectangle(5, 10, 25, 30);
+  print(
+    '[left, top, width, height] = ${[r1.left, r1.top, r1.width, r1.bottom]}',
+  );
+  print('[width, height] = ${[r1.right, r1.bottom]}');
+
+  var r2 = Rectangle2(5, 10, 30, 40);
+  print(
+    '[left, top, width, height] = ${[r2.left, r2.top, r2.width, r2.bottom]}',
+  );
+  print('[width, height] = ${[r2.right, r2.bottom]}');
+}
+
+
+## 2번째 실습
+class Hero {
+  String name = '영웅';
+  
+  void run(){
+    print('뛴다');
+  }
+}
+
+class SuperHero extends Hero{
+  @override
+  void run(){
+    super.run();
+    this.fly();
+  }
+  void fly(){
+    print('난다');
+  }
+}
+void main(){
+  var h1 = SuperHero();
+  h1.run();
+  // hero.fly();
+  print(h1.name);
+  
+  var h2 = Hero();
+  h2.run();
+  
+  print(' ');
+  
+  List<Hero> heroes = [h1, h2];
+  heroes.forEach((h) => h.run());
+  
+  
+}
+
+## 3번째 실습
+
+abstract class Monster {
+  void attack();
+}
+
+class Goblin implements Monster{
+  @override
+  void attack(){
+    print("고블린 어택");
+  }
+}
+
+class Bat implements Monster{
+  @override
+  void attack(){
+    print("할퀴기 공격!");
+  }
+}
+
+void main(){
+  Goblin g1 = Goblin();
+  Bat b1 = Bat();
+  
+  // 아래의 코드에서 Goblin 또는 Bat이 드러나지 않기 때문에 단순한 코드 전개가 가능하다.
+  List<Monster> monsters = [g1, b1];
+  monsters.forEach((m) => m.attack());
+}
+
+
+
+## 4번째 실습
+
+enum Status { login, logout }
+
+void main() {
+  var s1 = Status.login;
+  var s2 = Status.logout;
+
+  switch (s2) {
+    case Status.login:
+      print("로그인");
+      break;
+    case Status.logout:
+      print("로그아웃");
+      break;
+  }
+}
+
+
+## 5번째 실습
+
+void main(){
+  var lottoNums = [5, 6, 11, 13, 17, 21];
+  /*lottoNums.forEach((num) {
+    print(num);
+  })
+    lottoNums.forEach((num) => print(num));
+    lottoNums.forEach(print);
+  
+  lottoNums.remove(6);
+  lottoNums.add(9);
+  lottoNums.add(9);
+  
+  print(lottoNums);
+  
+  print(lottoNums[0]);
+  
+  lottoNums[0] = 1;
+  
+  print(lottoNums); */
+  
+  var map = {'한국':'서울','일본':'ehzy'}
+  print(map('한국'));
+}
+
+## 6번째 실습
+
+void funcA(){
+  print("왼쪽");
+}
+void funcB(){
+  print("오른쪽");
+}
+
+void main(){
+  var isChoice = false;
+  var func = isChoice == true ? funcA : funcB;
+  
+  func();
+  
+  if(isChoice == true){
+    funcA();
+  }
+  else{
+    funcB();
+  }
+}
+
+## 7번째 실습
+Function getFunc(bool isChoice){
+  return isChoice == true ? () => '왼쪽' : () => '오른쪽';
+}
+
+void main(){
+  var func = getFunc(true);
+  var result = func();
+  print(result);
+}
+
+
+
+## 8번쨰 실습
+
+void main(){
+  var nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+  print(nums);
+  print(nums.length);
+  
+  var evenNums = nums.where((n) => n % 2 == 0).toList();
+  print(evenNums);
+  
+  var strNums = evenNums
+    .map((n) => '#$n')
+    .toList();
+  print(strNums);
+  
+  var nums2 =[1, 2, 3, 4, 5, 6, 6];
+  print(nums2);
+  // 중복된 숫자 빼기
+  print(nums2.toSet().toList());
+  
+  print(nums2.any((e) => e == 1));
+  
+  nums2
+    ..add(-1)
+    ..add(-2)
+    ..add(-3);
+  print(nums2);
+}
+
+## 9번째 실습
+
+void main(){
+  bool promoActive = false;
+  
+  if (promoActive){
+    print([1, 2, 3, 4, 5, 6]);
+  } else {
+    print([1, 2, 3, 4, 5]);
+  }
+  
+  print([1, 2, 3, 4, 5, if(promoActive) 6]);
+  
+  var listOfInts = [1, 2, 3];
+  var listOfString = [
+    '#0',
+    for (var i in listOfInts) '#$i'
+    ];
+    print(listOfString);
+  }
+}
+
+## 10번째 실습
+
+void main(){
+  String? name;
+  
+  print(name?.length ?? 0);
+}
+
+
