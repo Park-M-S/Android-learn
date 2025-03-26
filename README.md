@@ -13,4 +13,4 @@
 
 
 # 3주차 수업내용
-[3주차 수업 내용]((https://github.com/Park-M-S/SG-Android/blob/main/3%EC%A3%BC%EC%B0%A8%20%EC%88%98%EC%97%85%EB%82%B4%EC%9A%A9.md))
+[3주차 수업 내용](https://github.com/Park-M-S/SG-Android/blob/main/3%EC%A3%BC%EC%B0%A8%20%EC%88%98%EC%97%85%EB%82%B4%EC%9A%A9.md)
