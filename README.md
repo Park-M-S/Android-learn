@@ -16,5 +16,5 @@
 [3주차 수업 내용](https://github.com/Park-M-S/SG-Android/blob/main/3%EC%A3%BC%EC%B0%A8%20%EC%88%98%EC%97%85%EB%82%B4%EC%9A%A9.md)
 
 # 4주차 수업 내용 및 과제
-[4주차 수업 내용](https://github.com/Park-M-S/SG-Android/blob/main/4%EC%A3%BC%EC%B0%A8%20%EC%88%98%EC%97%85%20%EB%82%B4%EC%9A%A9.md)
+[4주차 수업 내용](https://github.com/Park-M-S/SG-Android/blob/main/4%EC%A3%BC%EC%B0%A8%20%EC%88%98%EC%97%85%20%EB%82%B4%EC%9A%A9.md)<br/>
 [4주차 과제](https://github.com/Park-M-S/SG-Android/blob/main/4%EC%A3%BC%EC%B0%A8%20%EA%B3%BC%EC%A0%9C.md)
