@@ -1,4 +1,5 @@
-# SG-Android
+SG-Android
+==============
 
 # 1주차 과제
 
