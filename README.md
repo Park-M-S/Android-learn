@@ -1,4 +1,4 @@
-SG-Android
+Android-learn
 ==============
 
 # 1주차 과제
