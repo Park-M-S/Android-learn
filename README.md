@@ -28,4 +28,4 @@ Android-learn
 [6주차 수업 내용](https://github.com/Park-M-S/Android-learn/blob/main/6%EC%A3%BC%EC%B0%A8%20%EC%88%98%EC%97%85%20%EB%82%B4%EC%9A%A9.md)
 
 # 중간고사 대비 정리
-[중간고사 정리 내용](https://github.com/Park-M-S/Android-learn/blob/main/%EA%B8%B0%EB%A7%90%EA%B3%A0%EC%82%AC%20%EC%A0%95%EB%A6%AC.md)
+[중간고사 정리 내용](https://github.com/Park-M-S/Android-learn/blob/main/%EC%A4%91%EA%B0%84%EA%B3%A0%EC%82%AC%20%EC%A0%95%EB%A6%AC.md)
