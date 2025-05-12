@@ -3,7 +3,7 @@ Android-learn
 
 [앱 개발 관련 정리](https://github.com/Park-M-S/Android-learn/tree/main/%EC%95%B1%20%EB%A7%8C%EB%93%A4%EC%96%B4%EB%B3%B4%EA%B8%B0)
 
-=============
+
 # 1주차 과제
 
 ![image](https://github.com/user-attachments/assets/031fccaf-3a61-409d-98ba-824c0935b08e)
