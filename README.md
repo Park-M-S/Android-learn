@@ -1,4 +1,4 @@
-Android-learn
+![image](https://github.com/user-attachments/assets/e438672b-1d23-4470-8b7e-9c6b7b089319)Android-learn
 ==============
 
 [앱 개발 관련 정리](https://github.com/Park-M-S/Android-learn/tree/main/%EC%95%B1%20%EB%A7%8C%EB%93%A4%EC%96%B4%EB%B3%B4%EA%B8%B0)
@@ -35,3 +35,6 @@ Android-learn
 
 # 7주차 수업 내용
 [7주차 수업 내용 실제로는 9주차 진행 내용](https://github.com/Park-M-S/Android-learn/blob/main/7%EC%A3%BC%EC%B0%A8%20%EA%B0%95%EC%9D%98%20%EB%82%B4%EC%9A%A9.md)
+
+# 추후 앱 개발 자료
+[앱 개발 폴더](https://github.com/Park-M-S/Android-learn/tree/main/%EC%95%B1%20%EB%A7%8C%EB%93%A4%EC%96%B4%EB%B3%B4%EA%B8%B0)
