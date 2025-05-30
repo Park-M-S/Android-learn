@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/e438672b-1d23-4470-8b7e-9c6b7b089319)Android-learn
+Android-learn
 ==============
 
 [앱 개발 관련 정리](https://github.com/Park-M-S/Android-learn/tree/main/%EC%95%B1%20%EB%A7%8C%EB%93%A4%EC%96%B4%EB%B3%B4%EA%B8%B0)
