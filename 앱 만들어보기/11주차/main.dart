@@ -1,9 +1,4 @@
-// pubspec.yaml 파일에 다음 의존성을 추가하세요:
-/*
-dependencies:
-  flutter:
-    sdk: flutter
-*/
+
 
 // lib/main.dart
 import 'package:flutter/material.dart';
